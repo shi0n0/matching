@@ -1,0 +1,99 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left-navigation{
+    width: 8%;
+    height: 100vh;
+}
+
+.menu a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-right: solid 1px rgb(128, 128, 128);
+    border-bottom: solid 1px rgb(128, 128, 128);
+    height: 100%;
+}
+
+.bg-image{
+    position: relative;
+    background-image: url("/static/top-background.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.bg-text{
+    text-align: center;
+    background-color: rgba(211, 0, 0, 0.7);
+}
+
+.slide-image{
+    width: 550px;
+    height: 750px;
+    background-image: url("/static/onecolor.png");
+    background-size: cover;
+}
+
+.right-navigation{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: small;
+    justify-content: center;
+}
+.right-navigation li{
+    padding: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.right-content-child-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.right-content-child-1 h1{
+    color: cadetblue;
+    margin-bottom: 3rem;
+}
+.right-content-child-1 img{
+    width: 50%;
+}
+
+.right-content-child-2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.right-content-child-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-in{
+    width: 300px;
+    height: 3em;
+    margin-bottom: 30px;
+}
+
+.login{
+    width: 250px;
+    height: 3em;
+}
