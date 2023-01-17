@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'reset.css' %}">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7244181866.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css" type="text/css" media="all" />
+    <title>DE:AI</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="left-navigation">
+            <div class="menu">
+                <a><i class="fa-solid fa-right-to-bracket fa-3x faa-float faa-fast animated-hover"></i></a>
+                <a><i class="fa-solid fa-envelope fa-3x faa-float faa-fast animated-hover"></i></a>
+                <a><i class="fa-solid fa-circle-info fa-3x faa-float faa-fast animated-hover"></i></a>
+                <a><i class="fa-solid fa-shield-halved fa-3x faa-float faa-fast animated-hover"></i></a>
+            </div>
+        </nav>
+
+        <div class="slide-image"></div>
+
+        <div class="right-content">
+
+            <ul class="right-navigation">
+                <a src="https://pcmax.jp"><li>機能紹介</li></a>
+                <a><li>料金システム</li></a>
+                <a><li>サイトマップ</li></a>
+                <a><li>会社概要</li></a>
+            </ul>
+
+            <div class="right-content-child-1">
+                <h1>「新しい出会い」は人生を楽しくする。</h1>
+            <img  src="{% static 'pcmax.svg' %}">
+            </div>
+
+            <div class="right-content-child-2">
+                <p>創設20年以上の健全な運営実績！<br>
+                    会員数1800万人を超える<br>
+                国内最大級の優良出会い系マッチングサイトです。</p>
+            </div>
+
+            <div class="right-content-child-3">
+                <a href="register"><button class="sign-in">無料で始める</button></a>
+                <a href="login"><button class="login">ログイン</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
